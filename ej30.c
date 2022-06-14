@@ -10,6 +10,21 @@ int main(int argc, char const *argv[]) {
       } else a[i][j]=0;
     }
   }
+  for (int i = 0; i < 100; i++) {
+    int r = rand()%4;
+    if (r == 0) {
+
+    }
+    if (r == 1) {
+
+    }
+    if (r == 2) {
+
+    }
+    if (r == 3) {
+
+    }
+  }
   for (int i = 0; i < 15; i++) {
     for (int j = 0; j < 15; j++) {
       printf("%d ", a[i][j]);
